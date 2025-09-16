@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "lint:md": "npx markdownlint-cli 'README.md'",
+    "lint:txt": "npx textlint 'README.md'",
+    "lint": "npm run lint:md && npm run lint:txt"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.45.0",
+    "textlint": "^15.2.2"
+  }
+}
